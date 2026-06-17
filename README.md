@@ -27,20 +27,19 @@ The project follows a clean, modular service-oriented architecture layout:
    git clone [https://github.com/JanAli-socool/Fuel-Route-Optimizer-App.git](https://github.com/JanAli-socool/Fuel-Route-Optimizer-App.git)
    cd Fuel-Route-Optimizer-App
    ```
-   Activate the Virtual Environment:
 
-Bash
-# Windows PowerShell / Command Prompt:
+# Activate the Virtual Environment:
+## Windows PowerShell / Command Prompt:
 ```bash
 .\venv\Scripts\activate
 ```
 
-# Install Project Dependencies:
+## Install Project Dependencies:
 ```
 pip install -r requirements.txt
 ```
 
-# Boot the Development Server:
+## Boot the Development Server:
 ```
 python manage.py runserver
 ```
